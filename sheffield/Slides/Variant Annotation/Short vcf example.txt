@@ -1,0 +1,18 @@
+##fileformat=VCFv4.1
+##contenttype=HumanOmni25M-8v1-1_B.bpm
+##sourcereport=FinalReport_HumanOmni25M-8v1-1_PG0001217-BLD.txt
+##genomemap=HumanOmni25M-8v1-1.NCBI37.map.txt
+##contig=<ID=NA,length=0,Description="Contig undetermined-for genotyped alleles that do not map to the reference.">
+##INFO=<ID=AL,Number=1,Type=String,Description="Array Alleles">
+##INFO=<ID=ST,Number=1,Type=String,Description="ProbeStrand">
+##FILTER=<ID=GTEX,Description="Genotype excluded from reference sequence mapping.">
+##FILTER=<ID=NOCALL,Description="Genotype not called on array.">
+##FORMAT=<ID=GC,Number=1,Type=Float,Description="GencallScore">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##workflow_type=Illumina_GenotypingToVCF
+##workflow_version=v1.4
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	WG0231131-DNAD01-PG0001217-BLD
+chr7	117149177 	rs75961395	A	G	.	PASS	AL=A/G;ST=-	GT:GC	0/1:0.9120
+chr7	117509123	rs75961395	A	G	.	PASS	AL=A/G;ST=-	GT:GC	0/1:0.9120
+chr1	3545175	rs139554736	GTTCTGGGAGCTCCTCCCCC	G	1061.55	PASS	AC=2;AF=1.00;AN=2;DB;DP=25;FS=0.0;HRun=0;HaplotypeScore=383.4502;IndelType=D;MQ=52.5;MQ0=0;QD=42.46;SNPEFF_EFFECT=DOWNSTREAM;SNPEFF_FUNCTIONAL_CLASS=NONE;SNPEFF_GENE_BIOTYPE=protein_coding;SNPEFF_GENE_NAME=WRAP73;SNPEFF_IMPACT=MODIFIER;SNPEFF_TRANSCRIPT_ID=ENST00000270708	GT:AD:DP:GQ:PL	1/1:15,10:25:27.09:1104,27,0
+chr1	11593793	rs113116961	T	TGCACACACGCAC	3082.72	PASS	AC=2;AF=1.00;AN=2;DB;DP=25;FS=0.0;HRun=0;HaplotypeScore=174.646;IndelType=I;MQ=47.21;MQ0=0;QD=123.31;SNPEFF_EFFECT=INTRON;SNPEFF_FUNCTIONAL_CLASS=NONE;SNPEFF_GENE_BIOTYPE=processed_transcript;SNPEFF_GENE_NAME=PTCHD2;SNPEFF_IMPACT=MODIFIER;SNPEFF_TRANSCRIPT_ID=ENST00000294484	GT:AD:DP:GQ:PL	1/1:3,12:25:63.21:3125,63,0
