@@ -1,0 +1,192 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><META http-equiv=content-type content="text/html; charset=ISO-8859-1">
+<title>SNPs&GO </title>
+<link rel="stylesheet" href="../../..//pages/css/style.css" 
+type="text/css" title="SNPs&GO">
+<script type="text/javascript" src="../../../pages/jsmol/JSmol.min.js"></script>
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function switchSrc(filename) {
+  if (filename == '') {
+  document.getElementById("seqframe").src = "fileseq.html";
+  }
+  else{
+  document.getElementById("seqframe").src = filename;
+  }
+  return false;
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#99cccc" onload="MM_preloadImages(' ../../..//pages/images/bottoni-home2.gif',' ../../..//pages/images/bottoni-meto2.gif',' ../../..//pages/images/bottoni-bench2.gif',' ../../..//pages/images/bottoni-help2.gif')">
+<br />
+<br />
+<div align="center"><table width="880" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td valign="top"><div align="left"><img src="../../..//pages/images/angolo.jpg" alt="" width="55" height="55" /></div></td>
+    <td><div align="center"><br />
+      <img src="../../..//pages/images/testa.gif" alt="SNPs&amp;GO" width="770" /></div></td>
+    <td valign="top"><div align="right"><img src="../../..//pages/images/angolo-alt-ds.jpg" alt="" width="55" height="55" /></div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td bgcolor="#99cccc"><table width="100%" border="0" cellspacing="0" cellpadding="0" height="26">
+      <tr>
+        <td><div align="left"><img src="../../..//pages/images/menuSX.gif" alt="cornerL" width="21" height="26" /></div></td>
+        <td><div align="center"><a href="../../..//snps-and-go.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','',' ../../..//pages/images/bottoni-home2.gif',1)"><img src="../../../pages/images/bottoni-home.gif" alt="home" name="Image10" width="115" height="22" border="0" id="Image10" /></a></div></td>
+        <td><div align="center"><a href="../../..//pages/method.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','',' ../../..//pages/images/bottoni-meto2.gif',1)"><img src="../../..//pages/images/bottoni-meto.gif" alt="methods" name="Image11" width="115" height="22" border="0" id="Image11" /></a></div></td>
+        <td><div align="center"><a href="../../..//pages/benchmark.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','',' ../../..//pages/images/bottoni-bench2.gif',1)"><img src="../../..//pages/images/bottoni-bench.gif" alt="benchmark" name="Image12" width="115" height="22" border="0" id="Image12" /></a></div></td>
+        <td><div align="center"><a href="../../..//pages/help.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image13','',' ../../..//pages/images/bottoni-help2.gif',1)"><img src="../../..//pages/images/bottoni-help.gif" alt="help" name="Image13" width="115" height="22" border="0" id="Image13" /></a></div></td>
+        <td><div align="center"><a href="../../..//pages/contact.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image14','',' ../../..//pages/images/bottoni-contact2.gif',1)"><img src="../../..//pages/images/bottoni-contact.gif" alt="contact" name="Image14" width="115" height="22" border="0" id="Image14" /></a></div></td>
+        <td><div align="right"><img src="../../..//pages/images/menuDX.gif" alt="cornerR" width="21" height="26" /></div></td>
+      </tr>
+    </table></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center">
+        <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><div align="center" class="style4"><br>
+              SNPs&amp;GO<br/>
+              Predicting disease associated variations using GO terms <br></div>
+          </td>
+        </tr>
+	<tr>
+            <td><br><br><p align="left" class="style5"><b>Sequence File</b>: <a href="fileseq.html"  type="text/html" target=blank>
+		LCL.seq</a><br><b>Alignment File</b>: <a href="LCL.seq.blast.html"  type="text/html" target=blank>
+                LCL.seq.blast</a><br><b>GO-terms File</b>: <a href="LCL.seq.go" type="text/html" target=blank>
+                LCL.seq.go</a><br><b>Output File</b>: <a href="http://snps.biofold.org/snps-and-go/www-data/output/SNPsGO-121505/output.txt" type="text/html" target=blank>
+                output.txt</a><br><br><br></td></tr><tr><td class="style5"><div align="center"><iframe id="seqframe" name="seqframe" src='fileseq.html'  width="560" height="180" FRAMEBORDER=NO BORDER=0></iframe></div></td></tr><tr>
+                  	<td><br /><br>
+		  </td></tr>
+		<tr>
+                  <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                     <tr>
+                    <td class="style-line" colspan="7"  ><br />                   </td>
+                    </tr>
+                    <tr>
+                      <td width="10%" class="style5"><div align="right"><strong>Mutation</strong></div></td>
+                      <td width="15%" class="style5"><div align="right"><strong>Prediction</strong></div></td>
+                      <td width="5%" class="style5"><div align="right"><strong>RI</strong></div></td>
+
+                      <td width="15%" class="style5"><div align="right"><strong>Probability</strong></div></td>
+                      <td width="3%" class="style5"><div align="right"></div></td>
+                      <td width="52%" class="style5"><div align="right"><strong>Method</strong></div></td>
+                    </tr>
+                     <tr>
+                    <td class="style-line" colspan="7" ><br />                   </td>
+                    </tr>
+		<tr><td class="style5"><div align="right"><a href="#seqframe" onclick='switchSrc("fileseq_179.html#win");'>Y179C</a></div></td>
+                      		<td class="style5"><div align="right" class="style6">Disease</div></td>
+			<td class="style5"><div align="right">4</div></td><td class="style5"><div align="right">0.708</div></td><td class="style1">
+				<div a
+ign="right"></div></td>
+                      		<td class="style1"><div align="right">PhD-SNP: F[Y]=79% F[C]=0% Nali=23</div></td></tr><tr><td class="style5"><div align="right">
+                                &nbsp;</div></td>
+                      		<td class="style5"><div align="right" class="style6">Disease</div></td>
+			<td class="style5"><div align="right">3</div></td><td class="style5"><div align="right">0.653</div></td><td class="style1">
+				<div a
+ign="right"></div></td>
+                      		<td class="style1"><div align="right">PANTHER: F[Y]=27% F[C]=0%</div></td></tr><tr><td class="style5"><div align="right">
+                                &nbsp;</div></td>
+                      		<td class="style5"><div align="right" class="style6">Disease</div></td>
+			<td class="style5"><div align="right">9</div></td><td class="style5"><div align="right">0.949</div></td><td class="style1">
+				<div align="right"></div></td>
+                      		<td class="style1"><div align="right"><b>SNPs&GO</b></div></td></tr>
+		<td class="style-line"  colspan="7" ><br />                   </td>
+                    </tr>
+                  </td>
+                </tr>
+		</table>
+		<table>
+                <tr>
+                  <td> <br />
+                    <br />
+                    <span class="style5"><strong>Mutation:</strong> WT+POS+NEW <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;WT:  Residue in wild-type protein<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;POS: Residue position<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;NEW: New residue after mutation<br>
+
+      <br />
+      <strong>Prediction:</strong><br>
+             </span><span class="style2">&nbsp;&nbsp;&nbsp;&nbsp;Neutral:</span><span class="style5"> Neutral variation<br>
+             </span><span class="style6">&nbsp;&nbsp;&nbsp;&nbsp;Disease:</span><span class="style5"> Disease associated variation<br />
+             <br>
+
+             <strong>RI:</strong>  Reliability Index<br />
+             <br>
+             <strong>Probability:</strong> Disease probability (if >0.5 mutation is predicted Disease)<br />
+             <br>
+             <strong>Method:</strong> SVM type and data<br>
+	     &nbsp;&nbsp;&nbsp;&nbsp;PANTHER: Output of the PANTHER algorithm<br>
+             &nbsp;&nbsp;&nbsp;&nbsp;PhD-SNP:  SVM input is the sequence and profile at the mutated position<br>
+             &nbsp;&nbsp;&nbsp;&nbsp;SNPs&GO:  SVM input is all the input in PhD-SNP, PANTHER and GO terms features<br><br>
+             <strong>F[X]</strong>: Frequency of residue X in the sequence profile<br>
+             <strong>Nali</strong>: Number of aligned sequences in the mutated site<br>
+             </td>
+                </tr>
+	     </table>
+                <tr>
+
+                  <td>&nbsp;</td>
+                </tr>
+		
+	</p></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+       </table> 
+    </div></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td bgcolor="#99cccc"><table width="100%" border="0" cellspacing="0" cellpadding="0" height="26">
+      <tr>
+        <td><div align="left"><img src="../../..//pages/images/menuSX.gif" alt="cornerL" width="21" height="26" /></div></td>
+        <td><div align="center" class="footer"> <a href="http://snps.biofold.org/snps-and-go/snps-and-go.html" class="footer">SNPs&GO</a> &nbsp;&nbsp; - &nbsp;&nbsp; <a href="http://snps.biofold.org/snps-and-go/snps-and-go-3d.html" class="footer">SNPs&GO<sup><small>3d</small></sup></a></div></td>
+        <td><div align="right"><img src="../../..//pages/images/menuDX.gif" alt="cornerR" width="21" height="26" /></div></td>
+      </tr>
+    </table></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><div align="left"><img src="../../..//pages/images/angolo-abasso-sin.jpg" alt="" width="55" height="55" /></div></td>
+    <td>&nbsp;</td>
+    <td><div align="right"><img src="../../..//pages/images/angolo-abasso-ds.jpg" alt="" width="55" height="55" /></div></td>
+  </tr>
+</table>
+</div>
+<br><br>
+</body>
+</html>
